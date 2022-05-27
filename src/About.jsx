@@ -10,7 +10,7 @@ export const About = () => {
                 <meta property='og:locale' content='en_US' />
                 <meta property='og:type' content='website' />
             </Helmet>
-            About page
+            <div>About page</div>
         </>
     )
 }

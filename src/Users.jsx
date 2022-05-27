@@ -10,7 +10,7 @@ export const Users = () => {
                 <meta property='og:locale' content='en_US' />
                 <meta property='og:type' content='website' />
             </Helmet>
-            Users page
+            <div>Users page</div>
         </>
     )
 }
