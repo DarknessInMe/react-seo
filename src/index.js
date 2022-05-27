@@ -13,14 +13,13 @@ import { About } from './About';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Router>
+    <Router>
       <Routes >
         <Route path="/about" element={<About />} />
         <Route path="/users" element={<Users />} />
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
       </Routes >
-    </Router> */}
-    <Users />
+    </Router>
   </React.StrictMode>
 );
 
