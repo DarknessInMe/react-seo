@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 
 export const About = () => {
     return (
-        <>
+        <div>
             <Helmet>
                 <meta name='description' content={'Description'} />
                 <meta property='og:title' content={'About page'} />
@@ -11,6 +11,6 @@ export const About = () => {
                 <meta property='og:type' content='website' />
             </Helmet>
             <div>About page</div>
-        </>
+        </div>
     )
 }
