@@ -1,12 +1,10 @@
 {
   "files": {
-    "main.js": "/react-seo/static/js/main.6c331cd2.js",
-    "static/js/787.223550ad.chunk.js": "/react-seo/static/js/787.223550ad.chunk.js",
+    "main.js": "/react-seo/static/js/main.bf70a420.js",
     "index.html": "/react-seo/index.html",
-    "main.6c331cd2.js.map": "/react-seo/static/js/main.6c331cd2.js.map",
-    "787.223550ad.chunk.js.map": "/react-seo/static/js/787.223550ad.chunk.js.map"
+    "main.bf70a420.js.map": "/react-seo/static/js/main.bf70a420.js.map"
   },
   "entrypoints": [
-    "static/js/main.6c331cd2.js"
+    "static/js/main.bf70a420.js"
   ]
 }
