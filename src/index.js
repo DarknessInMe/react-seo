@@ -1,8 +1,9 @@
 import React from 'react';
 import {
   HashRouter as Router,
-  Routes ,
+  Routes,
   Route,
+  Link
 } from 'react-router-dom';
 import { Users } from './Users';
 import { Home } from './Home';
@@ -13,6 +14,9 @@ const App = (
   <React.StrictMode>
     <Router>
       <Routes >
+        <Link to='/about' />
+        <Link to='/users' />
+        <Link to='/' />
         <Route path="/about" element={<About />} />
         <Route path="/users" element={<Users />} />
         <Route exact path="/" element={<Home />} />
