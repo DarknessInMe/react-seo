@@ -4,6 +4,7 @@ export const About = () => {
     return (
         <div>
             <Helmet>
+                <title>About</title>
                 <meta name='description' content={'Description'} />
                 <meta property='og:title' content={'About page'} />
                 <meta property='og:description' content={'Description'} />
