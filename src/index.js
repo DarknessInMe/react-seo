@@ -1,31 +1,17 @@
 import React from 'react';
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-} from 'react-router-dom';
-import { Users } from './Users';
-import { Home } from './Home';
-import { About } from './About';
-import { hydrate, render } from "react-dom";
+// import { Users } from './pages/users';
+// import { Home } from './pages';
+// import { About } from './pages/about';
+import ReactDOM from 'react-dom/client';
  
-const App = (
-  <React.StrictMode>
-    <Router>
-      <Routes >
-        <Route path="/about" element={<About />} />
-        <Route path="/users" element={<Users />} />
-        <Route exact path="/" element={<Home />} />
-      </Routes >
-    </Router>
-  </React.StrictMode>
+const App = () => (
+  <div>App</div>
 )
 
-const rootElement = document.getElementById("root");
-
-if (rootElement.hasChildNodes()) {
-  hydrate(App, rootElement);
-} else {
-  render(App, rootElement);
-}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
